@@ -7,7 +7,6 @@
        http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
 
 	<camelContext xmlns="http://camel.apache.org/schema/spring">
-		<propertyPlaceholder id="properties" location="ironmq.properties"/>
 		<package>io.iron.jmsdemo</package>
 	</camelContext>
 
